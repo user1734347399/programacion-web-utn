@@ -1,0 +1,877 @@
+
+html{
+	background: #bdb9b947;
+	/*font-family: Montserrat;*/
+	font-size: 96%;/*tamaño de fuente*/
+}
+
+/* selecciono por div */
+body{
+	/*background: #bdb9b947;*/
+	width: 100%; /*ancho*/	
+	padding: 0;
+	margin: 0 auto;
+}
+
+
+
+/*selecciono por id*/
+#imagenDeCabezera {
+	/*max-width: 100%;*7
+    /*height: 600px;*/
+	width:100%; /*ancho*/
+	/*height: auto;*/
+	
+	/*margin: Arriba Derech Abajo Izq */
+	margin: 0% 0% 0% 0%;
+	
+	/*Margenes internos*/
+	/*arriba derecha abajo izquierda*/
+	padding: 0% 0% 0% 0%;
+
+	display: block; /*bloque*/
+}
+
+
+/*selecciono por id*/
+#container2{ 
+	/*display: flex;/* */
+	/*display: block;*/
+
+	display: block;
+	
+	height: 100%; /*altura*/
+	
+	/*Margenes: Arriba Derech Abajo Izq */
+	margin: 0% 3% 0% 3%;
+
+	width: auto; /* ancho */
+
+
+	/*Margenes internos */
+	padding-top: 0px; /*arriba*/
+	padding-bottom: 0px; /*abajo*/
+	padding-right: 0px; /*derecha*/
+	padding-left: 0px; /*izquierda*/
+	
+	/*bordes*/
+	border: 0px solid red; 
+}
+	
+	
+.barraDeNave {
+	/*display: flex;/* */
+	/*display: block;*/
+	display: none; /*ocultar*/
+
+	position:fixed; /*dejar fijo*/
+  /*position: absolute; */
+	
+	height: 50px; /*altura*/
+	
+	/*Margenes: Arriba Derech Abajo Izq */
+	margin: 1% 1% 1% 1%;
+
+	/*Margenes internos*/
+	/*arriba derecha abajo izquierda*/
+	padding: 0% 0% 0% 0%;
+	
+	/*bordes*/
+	border: 2px solid red; 
+	
+	width: calc(100% - 2%); /* ancho */
+}
+
+
+
+/*elementos internos del nav*/
+nav ul {
+	/*display: flex; /*alinear al lado del otro*/
+
+	/*position: absolute; /*fijar*/
+	position: fixed; /*fijar*/
+	
+	background: #ffffff25; /*color de fondo*/	
+	
+	/* height: 60px; /*altura*/
+	line-height: 35px; /*centrar vertical*/
+		
+	border-bottom: 0px solid #e3402b; /*borde inferior*/
+	text-decoration: none;
+
+	/*float: left; /*izquierda*/
+	/*float: right; /*derecha*/	
+
+	/*text-align: center; /*centrar horizontal*/	
+	
+	/*display: none; /*ocultar*/
+	/*display: block; /*mostrar*/
+	/*display: flex; /*alinear al lado del otro*/
+	align-items: center;		
+	
+	/*float: left; /*flotante*/
+	list-style: none;
+
+	/*Margenes internos*/
+	/*arriba derecha abajo izquierda*/
+	padding: 0% 2% 0% 2%;
+
+	/*Margenes: Arriba Derech Abajo Izq */
+	margin: 1% 1% 1% 1%;
+	
+	/*bordes*/
+	border: 0px solid red;
+	
+  width: calc(100% - 6%); /*ancho*/
+}
+	
+	
+
+.barraDeNavegacion {
+	/*text-align: center; /*centrar horizontal*/	
+	display: flex; /*alinear al lado del otro*/
+	
+	/*float: left; /*izquierda*/
+	float: right; /*derecha*/
+
+	/*margin: Arriba Derech Abajo Izq */
+	margin: 0% 0% 0% 0%;
+	
+	/*Margenes internos*/
+	/*arriba derecha abajo izquierda*/
+	padding: 0% 0% 0% 0%;
+
+	/*bordes*/
+	border: 0px solid #efd60a;
+
+	/*width: calc(100% - 40%); /*ancho*/ 
+}
+
+
+ol {
+    list-style: none;
+}
+
+.li_botones_imagen {
+
+	background: #ffffff25;
+
+	/*Margenes: Arriba Derech Abajo Izq */
+	margin: 1% 0% 1% 0%;
+
+  /*Margenes internos*/
+  /*arriba derecha abajo izquierda*/
+  padding: 0% 0% 0% 0%;
+}
+
+
+
+/*selecciono clase*/
+.separadorBotones {
+	/*display: flex; /*alinear al lado del otro*/
+
+	position: absolute; /*fijar*/
+	/*position: fixed; /*fijar*/
+	
+	background: #ffffff25; /*color de fondo*/	
+	
+	/* height: 60px; /*altura*/
+	line-height: 35px; /*centrar vertical*/
+		
+	border-bottom: 0px solid #e3402b; /*borde inferior*/
+	text-decoration: none;
+
+	/*float: left; /*izquierda*/
+	/*float: right; /*derecha*/	
+
+	/*text-align: center; /*centrar horizontal*/	
+	
+	/*display: none; /*ocultar*/
+	/*display: block; /*mostrar*/
+	/*display: flex; /*alinear al lado del otro*/
+	align-items: center;		
+	
+	/*float: left; /*flotante*/
+	list-style: none;
+
+	/*Margenes internos*/
+	/*arriba derecha abajo izquierda*/
+	padding: 2% 2% 2% 2%;
+
+	/*Margenes: Arriba Derech Abajo Izq */
+	margin: 20% 1% 1% 1%;
+	
+	/*bordes*/
+	border: 0px solid red;
+	
+  width: calc(100% - 6%); /*ancho*/
+}
+	
+
+
+
+/*selecciono clase*/
+.botonImagen {
+	/*display: flex; /*alinear al lado del otro*/
+
+	position: absolute; /*fijar*/
+	/*position: fixed; /*fijar*/
+	
+	/*background: #ffffff25; /*color de fondo*/	
+	
+	/* height: 60px; /*altura*/
+	line-height: 35px; /*centrar vertical*/
+		
+	border-bottom: 0px solid #e3402b; /*borde inferior*/
+	text-decoration: none;
+
+	/*float: left; /*izquierda*/
+	/*float: right; /*derecha*/	
+
+	/*text-align: center; /*centrar horizontal*/	
+	
+	/*display: none; /*ocultar*/
+	/*display: block; /*mostrar*/
+	/*display: flex; /*alinear al lado del otro*/
+	align-items: center;		
+	
+	/*float: left; /*flotante*/
+	list-style: none;
+
+	/*Margenes internos*/
+	/*arriba derecha abajo izquierda*/
+	padding: 2% 0% 2% 0%;
+
+	/*Margenes: Arriba Derech Abajo Izq */
+	margin: 20% 1% 1% 1%;
+	
+	/*bordes*/
+	border: 0px solid red;
+	
+  width: calc(100% - 2%); /*ancho*/
+}
+
+
+
+
+
+
+
+/*selecciono clase*/
+.botonImagen2 {
+	/*display: flex; /*alinear al lado del otro*/
+
+	position: absolute; /*fijar*/
+	/*position: fixed; /*fijar*/
+	
+	/*background: #ffffff25; /*color de fondo*/	
+	
+	/* height: 60px; /*altura*/
+	line-height: 35px; /*centrar vertical*/
+		
+	border-bottom: 0px solid #e3402b; /*borde inferior*/
+	text-decoration: none;
+
+	/*float: left; /*izquierda*/
+	/*float: right; /*derecha*/	
+
+	/*text-align: center; /*centrar horizontal*/	
+	
+	/*display: none; /*ocultar*/
+	/*display: block; /*mostrar*/
+	/*display: flex; /*alinear al lado del otro*/
+	align-items: center;		
+	
+	/*float: left; /*flotante*/
+	list-style: none;
+
+	/*Margenes internos*/
+	/*arriba derecha abajo izquierda*/
+	padding: 0% 0% 0% 0%;
+
+	/*Margenes: Arriba Derech Abajo Izq */
+	margin: 20% 1% 0% 1%;
+	
+	/*bordes*/
+	border: 0px solid red;
+	
+  width: calc(100% - 2%); /*ancho*/
+}
+
+
+
+
+
+/* selecciono clase*/
+.container{
+	background: #161717ba;/*color de fondo*/
+
+	/*position: absolute; /*fijar y retener todo*/
+
+	/*height: calc(400px); /*altura*/
+	/*line-height: 400px; /*centrar vertical*/	
+	
+	/*text-align: center; /*centrar horizontal*/	
+	
+	/*margenes: Arriba Derech Abajo Izq */
+	/*margin: 0 0 0 0;*/
+	
+	/*bordes*/
+	/*border-bottom: 1px solid rgb(241, 245, 17); */
+	 	
+	/*Margenes internos*/
+	/*arriba derecha abajo izquierda*/
+	padding: 0% 0% 0% 0%;
+	
+	width: calc(100% - 0%); /*ancho*/
+
+	word-wrap: break-word;/*retener el texto*/ 
+	
+	text-align: center; /*centrar horizontal*/
+}
+
+
+.atrasDeLaImag2 {
+  /*display: block; /*elemento de bloque*/
+
+  background-color: #f43333; /*color de fondo*/
+
+	/*position: absolute; /*fijar y retener todo*/
+	/*position: static; /*fijar y retener todo*/
+	/*display: iline-block; /*mostrar como bloque*/  
+
+  /*position:absolute;*/
+	/*float: left; /*izquierda*/
+	/*float: right; /*derecha*/
+
+  min-height: 300px; /*altura minima*/
+  /*line-height: calc(600px); /*centrar vertical*/
+	
+  text-align:center; /*centrar horizontal*/
+
+  /*margin: Arriba Derech Abajo Izq */
+  margin: 0px 0px 0px 0px;
+	
+  /*Margenes internos*/
+  /*arriba derecha abajo izquierda*/
+  padding: 0;
+
+  /*bordes*/
+  border: 0px solid #efd60a;
+  
+  width: calc(100% - 0%); /*ancho*/  
+}
+
+
+/*seleccio por clase */
+.header {
+	/*position: absolute; /*fijar y retener todo*/
+	/*position: static; /*fijar y retener todo*/
+	display: iline-block; /*mostrar como bloque*/
+
+	word-wrap: break-word;/*retener el texto*/ 
+
+	color: white; /*color de fuente*/
+
+	font-family: Arial;
+	/*font-size: 20px;*/
+
+	/*font-size: 20px; /*Tamaño de Fuente de*/
+	/*color: #fdfdfd; /*color de fuente*/
+	text-align: center; /*centrar horizontal*/	
+  
+  /*margin: Arriba Derech Abajo Izq */
+  margin: 0px 0px 0px 0px;
+	
+  /*Margenes internos*/
+  /*arriba derecha abajo izquierda*/
+  padding: 0% 0% 0% 0%;
+
+ 	width: calc(100% - 0%); /*ancho*/
+
+
+}
+
+
+
+
+
+/*seleccio por clase */
+.headerInterno {
+	font-family: Arial;
+	/*font-size: 20px;*/
+
+	/*font-size: 20px; /*Tamaño de Fuente de*/
+	/*color: #fdfdfd; /*color de fuente*/
+	
+	/*display: flex;*/
+	/*align-items: center;*/
+	
+	text-align: center; /*centrar horizontal*/	
+	
+	width: calc(100% - 0px); /* ancho */
+	/*height: 400px; /*altura*/
+	/*line-height: 400px; /*centrar vertical*/
+	
+	/*Margenes: Arriba Derech Abajo Izq */
+	margin: 0 0 0 0;
+
+  /*Margenes internos*/
+  /*arriba derecha abajo izquierda*/
+  padding: 0% 0% 0% 0%;
+	
+	/* bordes*/
+	border: 0px solid red; 
+
+  /*position:absolute;*/
+	/*float: left; /*izquierda*/
+	/*float: right; /*derecha*/	
+	
+	/*uno al lado del otro*/
+	/*display: flex; */
+
+	word-wrap: break-word;/*retener el texto*/ 
+}
+
+.texto1{
+	display: none;
+	position: absolute;
+
+	vertical-align: middle;
+
+	/*display:flex;*/
+	justify-content: center;
+	align-items:center;
+
+	top: 30%;
+	left: 10%;
+
+	/*Margenes: Arriba Derech Abajo Izq */
+	margin: 0;
+
+  /*Margenes internos*/
+  /*arriba derecha abajo izquierda*/
+  padding: 0;
+}
+
+
+
+.texto2{
+	position: absolute;
+	top: 20%;
+	left: 10%;
+
+	/*Margenes: Arriba Derech Abajo Izq */
+	margin: 0;
+
+  /*Margenes internos*/
+  /*arriba derecha abajo izquierda*/
+  padding: 0;
+}
+
+
+.texto3{
+	position: absolute;
+	top: 30%;
+	left: 10%;
+
+	/*Margenes: Arriba Derech Abajo Izq */
+	margin: 0;
+
+  /*Margenes internos*/
+  /*arriba derecha abajo izquierda*/
+  padding: 0;
+}
+
+
+h1{
+	text-align: center; /*centrar horizontal*/	
+  /*font-size: 20px /*letra cambia automaticamente*/
+	width: calc(100% - 0px); /* ancho */
+
+	/*Margenes: Arriba Derech Abajo Izq */
+	margin: 0px 0 0px 0;
+
+  /*Margenes internos*/
+  /*arriba derecha abajo izquierda*/
+  padding: 0% 0% 0% 0%;
+}
+
+
+
+
+
+
+
+
+/* selecciono por clase */
+.boton {
+	font-size: 100%; /*Tamaño de Fuente de*/
+	color: #fff; /*color texto*/
+
+	/*bordes*/
+	border: 0px solid #6c6c6c; 
+
+	/*background-color: #e1e6ee; /*color botón*/
+
+	text-align: center; /*centrar horizontal*/	
+
+	text-decoration: none; /*decoración texto*/
+	text-transform: uppercase; /*capitalización texto*/
+	font-family: Arial, sans-serif; /*tipografía texto*/
+	
+	border-radius: 8px; /*redondeado de bordes*/
+
+	/*Margenes internos */
+	padding-top: 7px; /*arriba*/
+	padding-bottom: 7px; /*abajo*/
+	
+	padding-right: 9px; /*derecha*/
+	padding-left: 9px; /*izquierda*/
+
+	/*Margenes: Arriba Derech Abajo Izq */
+	margin: 0px 5px 0px 5px;
+}
+
+/*selecciono la propiedad de la clase*/
+.boton:hover /*color al pasar el mouse*/
+{
+	/*color de fondo al pasar el mouse */
+	/*background: rgb(93, 244, 38, 0.89); */
+	color: rgb(93, 244, 38, 0.89); /*color texto*/
+}
+
+
+
+
+
+/* selecciono por clase */
+.boton2 {
+	font-size: 100%; /*Tamaño de Fuente de*/
+	color: #fff; /*color texto*/
+
+	/*bordes*/
+	border: 0.5px solid #6c6c6c; 
+
+	background-color: #ff0b5b80; /*color botón*/
+
+	text-align: center; /*centrar horizontal*/	
+
+	text-decoration: none; /*decoración texto*/
+	/*text-transform: uppercase; /*capitalización texto*/
+	font-family: Arial, sans-serif; /*tipografía texto*/
+	
+	border-radius: 8px; /*redondeado de bordes*/
+
+	/*Margenes internos */
+	padding-top: 7px; /*arriba*/
+	padding-bottom: 7px; /*abajo*/
+	
+	padding-right: 9px; /*derecha*/
+	padding-left: 9px; /*izquierda*/
+
+	/*Margenes: Arriba Derech Abajo Izq */
+	margin: 0px 0px 0px 0px;
+}
+
+/*selecciono la propiedad de la clase*/
+.boton2:hover /*color al pasar el mouse*/
+{
+	/*color de fondo al pasar el mouse */
+	background: rgb(93, 244, 38, 0.89); */
+	/*color: rgb(93, 244, 38, 0.89); /*color texto*/
+}
+
+
+
+
+/*selecciono por clase*/
+.clearfix{
+	clear:both;
+}
+
+
+
+
+.contenedor2 {
+  display: block; /*elemento de bloque*/
+
+  background-color: #f433a0; /*color de fondo*/
+
+  /*position: relative; /*fijar y retener todo*/
+	/*position: absolute; /*fijar y retener todo*/
+	/*position: static; /*fijar y retener todo*/
+	/*display: iline-block; /*mostrar como bloque*/  
+
+  /*position:absolute;*/
+	/*float: left; /*izquierda*/
+	/*float: right; /*derecha*/
+
+  /*min-height: 600px; /*altura minima*/
+  line-height: calc(600px); /*centrar vertical*/
+	
+  text-align:center; /*centrar horizontal*/
+
+  /*margin: Arriba Derech Abajo Izq */
+  margin: 0px 0px 0px 0px;
+	
+  /*Margenes internos*/
+  /*arriba derecha abajo izquierda*/
+  padding: 5% 5% 5% 5%;
+
+  /*bordes*/
+  border: 0px solid #efd60a;
+  
+  width: calc(100% - 10%); /*ancho*/  
+}
+
+
+
+
+.contenedor3 {
+  display: block; /*elemento de bloque*/
+
+  background-color: #3336f4; /*color de fondo*/
+
+  /*position: relative; /*fijar y retener todo*/
+	/*position: absolute; /*fijar y retener todo*/
+	/*position: static; /*fijar y retener todo*/
+	/*display: iline-block; /*mostrar como bloque*/  
+
+  /*position:absolute;*/
+	/*float: left; /*izquierda*/
+	/*float: right; /*derecha*/
+
+  /*min-height: 600px; /*altura minima*/
+  line-height: calc(600px); /*centrar vertical*/
+	
+  text-align:center; /*centrar horizontal*/
+
+  /*margin: Arriba Derech Abajo Izq */
+  margin: 0px 0px 0px 0px;
+	
+  /*Margenes internos*/
+  /*arriba derecha abajo izquierda*/
+  padding: 5% 5% 5% 5%;
+
+  /*bordes*/
+  border: 0px solid #efd60a;
+  
+  width: calc(100% - 10%); /*ancho*/  
+}
+
+
+
+.contenedor4 {
+  display: block; /*elemento de bloque*/
+
+  background-color: #9d9d9c; /*color de fondo*/
+
+  /*position: relative; /*fijar y retener todo*/
+	/*position: absolute; /*fijar y retener todo*/
+	/*position: static; /*fijar y retener todo*/
+	/*display: iline-block; /*mostrar como bloque*/  
+
+  /*position:absolute;*/
+	/*float: left; /*izquierda*/
+	/*float: right; /*derecha*/
+
+  /*min-height: 600px; /*altura minima*/
+  line-height: calc(600px); /*centrar vertical*/
+	
+  text-align:center; /*centrar horizontal*/
+
+  /*margin: Arriba Derech Abajo Izq */
+  margin: 0px 0px 0px 0px;
+	
+  /*Margenes internos*/
+  /*arriba derecha abajo izquierda*/
+  padding: 5% 5% 5% 5%;
+
+  /*bordes*/
+  border: 0px solid #efd60a;
+  
+  width: calc(100% - 10%); /*ancho*/  
+}
+
+
+/*seleccio por clase*/
+.tituloIzquierda { 
+	/*font-size: 30px; /*Tamaño de Fuente de*/
+	color: #17ff26; /*color de fuente*/
+	
+	width: calc(100% - 0px); /*ancho*/  
+	min-height: 20px; /*altura minima*/
+
+	/*margin: 0px;*/
+	
+	/*Margenes*/
+	margin-top: 0px; /*arriba*/
+	margin-bottom: 0px; /*abajo*/
+	margin-right: 0px; /*derecha*/
+	margin-left: 0px; /*izquierda*/
+	
+	/*Margenes Internos*/
+	padding-top: 0px; /*arriba*/
+	padding-bottom: 0px; /*abajo*/
+	padding-right: 0px; /*derecha*/
+	padding-left: 0px; /*izquierda*/
+
+	/*bordes*/
+	border: 0px solid #efd60a;	
+}
+
+
+
+/* selecciono por clase */
+/* aside = al lado */
+.contenedorDerecha 
+{
+	display: none;
+
+	/* */
+	background: #ff00cb70; /*color de fondo*/
+	
+	/*float: left; /*alinear a la izquierda*/
+	float: right; /*alinear a la derecha*/
+
+	/*min-height: 600px; /*altura minima*/
+
+	/*Margenes*/
+	margin:0 auto;
+
+	/*margin: Arriba Derech Abajo Izq */
+	/*margin: 0px 0px 0px 0px; */
+
+	width: calc(30% - 10%); /*ancho*/  	
+
+	/*Margenes internos*/
+	/*arriba derecha abajo izquierda*/
+	padding: 5% 5% 5% 5%;
+
+	/*bordes*/
+	border: 0px solid #2e518b;
+}
+
+
+
+
+/*selecciono por id */
+#tituloDerecha {
+	color: rgba(2, 0, 0, 0.959); /*color del texto*/
+	font-size: 15px; /*Tamaño del texto*/
+	text-align: center; /*centrar texto horizontal*/
+
+	height: 600px; /*altura*/
+	line-height: 600px;  /*centrar vertical*/
+
+	width: 100%; /*ancho*/
+	margin: 0px;
+
+	/*bordes*/
+	border: 0px solid #2e518b;
+}
+
+
+
+
+
+
+
+/*seleccio por id*/
+#form { 
+	/*margin: 0px;*/
+	
+	/*Margenes*/
+	margin-top: 0px; /*arriba*/
+	margin-bottom: 0px; /*abajo*/
+	margin-right: 15px; /*derecha*/
+	margin-left: 15px; /*izquierda*/
+	
+	/*Bordes Internos*/
+	padding-top: 0px; /*arriba*/
+	padding-bottom: 0px; /*abajo*/
+	padding-right: 10px; /*derecha*/
+	padding-left: 10px; /*izquierda*/
+}
+
+/*selecciono por id */
+#nombre{
+	background: #29ccd7; /*color fondo*/
+	width: calc(100% - 6px); /* ancho */
+	height: 30px; /*altura*/
+	/*word-wrap: break-word;*/ 
+
+	text-align: center; /*centrar texto horizontal*/	
+	
+	border-color: rgb(76, 16, 243); /*color borde*/
+	
+	border-left-width: 3px; /*izquierda*/
+	border-left-style: solid;
+
+	border-top-width: 3px; /*arriba*/
+	border-top-style: solid;
+
+	border-bottom-width: 3px; /*abajo*/
+	border-bottom-style: solid;
+
+	border-right-width: 3px; /*derecha*/
+	border-right-style: solid;
+		
+	/*margin: Arriba Derech Abajo Izq */
+	margin: 10px 0px 10px 0px;
+	padding: 0;
+}
+
+
+
+/*selecciono por id*/
+#submit {
+	background: #eee;/*color de fondo */
+	font-weight: bold;
+	cursor: pointer;
+	padding: 8px;
+
+	width: calc(100% - 0px); /*ancho*/
+	min-height: 10px; /*altura minima*/
+
+	/*margin: Arriba Derech Abajo Izq */
+	margin: 10px 0px 10px 0px;
+	border: 1px solid #f21a89; 
+	border-radius: 8px 8px 8px 8px;
+}
+
+/*selecciono la propiedad de la clase*/
+#submit:hover {
+	/*color de fondo al pasar el mouse */
+	background: rgb(238, 81, 212); 
+}
+
+
+
+/* selecciono por id*/
+.abajo{
+	background: #ea21a5c7; /*color de fondo*/
+	color: white; /*color del texto*/
+	/*font-size: 30px; /*Tamaño del texto*/
+	text-align: center; /*centrar texto horizontal*/
+	
+	height: calc(600px - 0px); /*altura*/
+	line-height: calc(600px - 20px); /*centrar vertical*/
+
+	width: calc(100% - 0px); /*ancho*/
+	margin: 0px;
+	/*clear:boot; */
+
+	/*bordes*/
+	border: 0px solid #2e518b;
+	
+	float: left; /*izquierda*/
+	/*float: right; /*derecha*/	
+	
+	/*display: flex;*/
+    /*display: table;*/
+	/*position: static;*/
+}
+
+
